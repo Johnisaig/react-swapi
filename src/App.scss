@@ -1,0 +1,30 @@
+@use 'variables.scss'as settings;
+
+.theme {
+  margin: 0;
+  border: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.dark-mode {
+  background: settings.$darkTheme;
+  color: settings.$lightTheme;
+
+  @media only screen and (max-width: 1262px) {
+    height: 100%;
+  }
+
+  th {
+    color: settings.$lightTheme;
+  }
+
+  .table-text {
+    color: settings.$lightTheme;
+  }
+
+}
+
+.light-mode {
+  color: settings.$darkTheme;
+}

@@ -1,0 +1,22 @@
+.starships-container {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.table-section {
+    width: 80%;
+}
+
+.table-header {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pagination-container {
+    margin-top: 30px;
+}

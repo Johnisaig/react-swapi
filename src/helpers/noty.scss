@@ -1,0 +1,27 @@
+.noty_theme__sunset.noty_bar {
+  margin: 4px 0;
+  overflow: hidden;
+  border-radius: 0;
+  position: relative;
+
+  .noty_body {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .noty_buttons {
+    padding: 10px;
+  }
+}
+
+
+.noty_theme__sunset.noty_type__error {
+  background-color: #dc1079;
+  border: solid 2px darken(#dc1079, 10%);
+  color: white;
+
+  .noty_progressbar {
+    opacity: 0.4;
+  }
+}

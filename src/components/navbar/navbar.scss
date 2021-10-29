@@ -1,0 +1,38 @@
+@use 'variables.scss'as settings;
+
+.navagation {
+    margin: 0;
+    border: 0;
+    box-shadow: 0 4px 13px -3px rgb(0 0 0 / 10%);
+    border-bottom: 1px solid #d2d2d2;
+    border-color: rgba(0, 0, 0, .2);
+    padding: 8px 0;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-image: linear-gradient(139deg, settings.$headerPrimary, settings.$headerSecondary, settings.$headerTertiary, settings.$headerFourtary) 3;
+}
+
+
+.navbar-content {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 80%;
+}
+
+.company-brand {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.accenture-brand {
+    width: 174px;
+    cursor: pointer;
+}
